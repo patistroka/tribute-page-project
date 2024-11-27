@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box; 
+  }
+  
+  html, body {
+    margin: 0; 
+    padding: 0; 
+    width: 100%; 
+    height: 100%; 
+  }
+  
+  body {
+    background-color: #ffffff;
+    color: #1b1b32;
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  #title {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 28px;
+  }
+  
+  #description {
+    text-align: center;
+    margin-top: 0;
+    font-style: italic;
+    font-size: 16px;
+  }
+  
+  #img-caption {
+    padding-top: 5px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  #image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+  
+  #tribute-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 50px;
+    font-size: 18px;
+    width: 100%;
+  }
+  
+  .divider {
+    border-bottom: 3px solid #1b1b32; 
+    width: 100%; 
+    max-width: 200px; 
+    margin: 5px auto; 
+  }
+  
+  #text-container {
+    max-width: 700px;
+    margin: 10px auto;
+    padding: 0;
+  }
+  
+  .text-block {
+    margin: 20px 0;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+  }
+  
+  .highlighted-text {
+    background-color: #eeeeee;
+    padding: 20px;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+  
+  .highlighted-text p {
+    margin: 0;
+    text-align: left;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .title strong {
+    color: 
+  }
+  
+  .highlighted-title {
+    color: #da5a18;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  #tribute-link {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  #tribute-link:hover {
+    text-decoration: underline;
+  }
+  
+  #tribute-link:visited {
+    color: purple;
+  }
+  
+  footer {
+      background-color: #2a2a40; 
+      display: flex; 
+      justify-content: center; 
+      width: 100%; 
+      padding: 20px 0; 
+      position: relative; 
+      font-size: 14px; 
+      font-style: italic; 
+      color: #dfdfe2; 
+      margin: 0; 
+  }
+  
+  footer,
+  footer a {
+    color: #dfdfe2;
+  }
+  
+  footer a {
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  
